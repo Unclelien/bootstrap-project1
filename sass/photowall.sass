@@ -1,0 +1,145 @@
+@import _mixin
+@include hnpx(25)
+@include wnpx(25)
+@include hnpx(30)
+@include hnpx(50)
+@include wnpx(30)
+@include wnpx(45)
+@include wnpx(80)
+@include hnpx(80)
+@include wnpx(50)
+@include wnpx(100)
+@include hnpx(200)
+@include hnpx(300)
+@include wnpx(300)
+@include wnpx(400)
+@include wnpx(640)
+@include wnpx(750)
+@include wnpx(600)
+@include hnpx(600)
+@include hnpx(700)
+@include wnpx(800)
+@include hnpx(400)
+@include hnpx(800)
+
+@import "../bootstrap/scss/functions"
+// 2. Include any default variable overrides here
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../bootstrap/scss/variables"
+@import "../bootstrap/scss/variables-dark"
+// 4. Include any default map overrides here
+$my-colors: ("logo":#1d9ee1,"bg-gray":#f3f2ee,"hashtag-gray":#dddddd,"word":#676662,"see-more":#b4ccd6,"article":#021524,"bar":#b9b8b4)
+$theme-colors: map-merge($theme-colors, $my-colors)
+@import "../bootstrap/scss/bootstrap"
+
+.logo-name
+     writing-mode: vertical-lr
+     letter-spacing: 5px
+     text-decoration: none
+     transition: all 0.5s ease-in
+     
+.icon-move a
+     transition: all 0.5s ease-in
+
+.icon-move a:hover
+      background-color: #fff
+      border-radius:5px
+      text-decoration: none
+
+     
+.home:hover
+        &::after
+            content:"首頁"
+            display: flex
+            flex-direction: column
+            text-align: center
+            font-size: 12px
+            text-decoration: none
+            
+
+.zoom:hover
+
+        &::after
+            content:"搜尋"
+            display: flex
+            flex-direction: column
+            text-align: center
+            font-size: 12px
+            text-decoration: none
+       
+.list:hover
+
+        &::after
+            content:"列表"
+            display: flex
+            flex-direction: column
+            text-align: center
+            font-size: 12px
+            text-decoration: none
+
+.map:hover
+
+        &::after
+            content:"導覽"
+            display: flex
+            flex-direction: column
+            text-align: center
+            font-size: 12px
+            text-decoration: none
+
+
+.donate:hover
+
+        &::after
+            content:"捐獻"
+            display: flex
+            flex-direction: column
+            text-align: center
+            font-size: 12px
+            text-decoration: none
+        
+.btn1
+     color: #1d9ee1
+
+.btn-group
+     transition: all 0.6s ease-in
+
+.btn-group:hover
+      color: aliceblue
+      background-color: #1d9ee1
+
+.carousel-indicators
+    .active
+        transition: all 0.3s ease-in
+        background-color: #504e4f
+        width: 150px
+
+.bar
+    width: 60px
+    height:120px
+    border-radius: 18px
+
+.carousel-control-prev
+    width: 95%
+    font-size: 10px
+
+
+.carousel-control-prev-icon:hover
+    background-color: #021524
+    opacity: 0.5 
+
+.carousel-control-next-icon:hover
+    background-color: #021524
+    opacity: 0.5
+
+.carousel-caption
+    right: auto
+    left: 8%
+    bottom: 10%
+
+.image:hover,
+.hashtag:hover,
+.bookmark:hover
+    transform: scale(1.5)
+    transition: all 0.3s ease-out
+    cursor: pointer

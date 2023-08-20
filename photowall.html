@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的photowall</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/photowall.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        html {
+            background-color: white
+        }
+    </style>
+</head>
+<!-- https://dq.yam.com/ -->
+
+<body>
+    <header>
+        <nav class="position-relative">
+            <div class="h700px m-1 mb-2  position-absolute z-3">
+                <div class="logo ms-3 my-3">
+                    <span class="text-logo fs-5 fw-bold p-1 border rounded-circle border-logo">DQ</span>
+                </div>
+                <div class="ms-3 mb-4 ">
+                    <div class="logo-name text-light fs-4 fw-3"><a href="#"
+                            class="text-decoration-none text-light">地球圖輯隊</a></div>
+                </div>
+                <div
+                    class="h300px d-flex flex-column  text-decoration-none bg-light bg-opacity-50 border-0 rounded-3  icon-move ms-3  position-fixed top-25 start-0 my-1">
+                    <a href="#" class="text-dark pb-3 pt-1  home"><i
+                            class="fa-solid fa-house  w45px text-center pt-3 "></i></a>
+                    <a href="#" class="text-dark pb-3 pt-2  zoom"><i
+                            class="fa-solid fa-magnifying-glass w45px text-center p-2"></i></a>
+                    <a href="#" class="text-dark pb-3 pt-2  list"><i
+                            class="fa-solid fa-bars-staggered w45px text-center p-2"></i></a>
+                    <a href="#" class="text-dark pb-3 pt-2  map"><i
+                            class="fa-regular fa-compass w45px text-center p-2"></i></a>
+                    <a href="#" class="text-dark pb-2 pt-2  donate"><i
+                            class="fa-solid fa-hand-holding-dollar w45px text-center p-2 "></i></a>
+                </div>
+            </div>
+            <div class="btn-group w40px position-absolute top-0 end-0 z-3 mx-5 my-4 ">
+                <button type="button" class="btn btn1 border border-logo ">登入
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- 影像牆 -->
+    <section>
+
+        <div id="carouselExampleIndicators" class="carousel slide w-100 h-100 carousel-dark" data-bs-ride="true">
+            <div class="carousel-inner pb-4">
+                <div class="carousel-item active">
+                    <img src="./img/img1.jpg" class="w-100 object-fit-cover h700px " alt="...">
+                    <div class="carousel-caption vstack d-flex align-items-start text-light text-center">
+                        <h3 class="text-shadow fw-bold">「我是男生，我也會被性侵」亞洲美少年</h3>
+                        <h3 class="text-shadow fw-bold">夢工廠傑尼斯的陰影面.</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img2.jpg" class="w-100 object-fit-cover h700px" alt="...">
+                    <div class="carousel-caption vstack d-flex align-items-start text-light text-center">
+                        <h3 class="text-shadow fw-bold">機械大象不再流眼淚：用科技取代為娛樂人類</h3>
+                        <h3 class="text-shadow fw-bold">而痛苦的動物</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img3.jpg" class="w-100 object-fit-cover h700px" alt="...">
+                    <div class="carousel-caption vstack d-flex align-items-start text-light text-center">
+                        <h3 class="text-shadow fw-bold">FBI藝術犯罪小組告訴你:別相信從自家倉庫</h3>
+                        <h3 class="text-shadow fw-bold">挖出稀世珍寶這種事</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img4.jpg" class="w-100 object-fit-cover h700px" alt="...">
+                    <div class="carousel-caption vstack d-flex align-items-start text-light text-center">
+                        <h3 class="text-shadow fw-bold">編織遺愛　美國媒合平台為你穿針引線</h3>
+                        <h3 class="text-shadow fw-bold">，縫補喪親之痛</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img5.jpg" class="w-100 object-fit-cover h700px" alt="...">
+                    <div class="carousel-caption vstack d-flex align-items-start text-light text-center">
+                        <h3 class="text-shadow fw-bold">以神之名，在台灣｜專訪前攝理教教徒</h3>
+                        <h3 class="text-shadow fw-bold">諾亞：「他們把我騙得這麼慘」</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img6.jpg" class="w-100 object-fit-cover h700px" alt="...">
+                    <div class="carousel-caption vstack d-flex align-items-start text-light text-center">
+                        <h3 class="text-shadow fw-bold">當炸彈在眼前倒數，性別重要嗎？</h3>
+                        <h3 class="text-shadow fw-bold">利比亞首批女性排雷人員</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img7.jpg" class="w-100 object-fit-cover h700px" alt="...">
+                    <div class="carousel-caption vstack d-flex align-items-start text-light text-center">
+                        <h3 class="text-shadow fw-bold">「突破次元壁！越前龍馬在舞台上打網球」</h3>
+                        <h3 class="text-shadow fw-bold">在2.5次元的世界裡沒有不可能</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img8.jpg" class="w-100 object-fit-cover h700px" alt="...">
+                    <div class="carousel-caption vstack d-flex align-items-start text-light text-center">
+                        <h3 class="text-shadow fw-bold">「我不覺得我是人」北韓監獄，人權煉獄</h3>
+                        <h3 class="text-shadow fw-bold">：強暴、墮胎、私刑、吃蟲果腹</h3>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev rounded-2 opacity-100" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon rounded-2 position-absolute icon-button top-50 end-0 "
+                    aria-hidden="true"></span>
+                <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next rounded-2  opacity-100 " type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon rounded-2 position-absolute icon-button top-50 end-0 "
+                    aria-hidden="true"></span>
+                <span class="visually-hidden ">Next</span>
+            </button>
+            <div class="carousel-indicators position-relative top-50 ">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active bg-bar bar me-3" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2" class="bg-bar bar me-3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3" class="bg-bar bar me-3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4" class="bg-bar bar me-3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5" class="bg-bar bar me-3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6" class="bg-bar bar me-3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                    aria-label="Slide 7" class="bg-bar bar me-3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                    aria-label="Slide 8" class="bg-bar bar "></button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="h-100 ms-5">
+            <div class="container">
+                <div class="row mb-5 ">
+                    <!-- 1 -->
+                    <div class="col-3">
+                        <div
+                            class="d-flex justify-content-start aligh-items-center overflow-hidden rounded-3 overflow-hidden rounded-3">
+                            <a href="#" class="scale"><img src="./img/img9.jpg" alt="..."
+                                    class="w300px h200px rounded-3 image image"></a>
+                        </div>
+                        <div class="hstack d-flex align-items-center">
+                            <div class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-2 ">
+                                日本
+                            </div>
+                            <div
+                                class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-auto ">
+                                企業
+                            </div>
+                            <span class="mt-2 me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="查看更多標籤">
+                                    <i class="far fa-comment-dots text-see-more see-more"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <a href="#" class="article text-article text-decoration-none fw-bold fs-5">
+                            「離職與跳槽，是為了更好的我」配屬扭蛋大暴死...
+                        </a>
+                        <div class="hstack">
+                            <div class="text-word fs-12px my-1 me-auto">2023-04-14</div>
+                            <span class="me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="收藏文章">
+                                    <i class="far fa-bookmark text-logo fs-12px bookmark"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="col-3">
+                        <div class="d-flex justify-content-start aligh-items-center overflow-hidden rounded-3">
+                            <a href="#" class="scale"><img src="./img/img10.jpg" alt="..."
+                                    class="w300px h200px rounded-3 image"></a>
+                        </div>
+                        <div class="hstack d-flex align-items-center">
+                            <div class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-2 ">
+                                一胎化
+                            </div>
+                            <div
+                                class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-auto ">
+                                人口</div>
+                            <span class="mt-2 me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="查看更多標籤">
+                                    <i class="far fa-comment-dots text-see-more see-more"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <a href="#"
+                            class="article text-article text-decoration-none fw-bold fs-5">超車中國，印度即將成為全世界人口數最多的國家
+                        </a>
+                        <div class="hstack">
+                            <div class="text-word fs-12px my-1 me-auto">2023-04-13</div>
+                            <span class="me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="收藏文章">
+                                    <i class="far fa-bookmark text-logo fs-12px bookmark"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col-3">
+                        <div class="d-flex justify-content-start aligh-items-center overflow-hidden rounded-3">
+                            <a href="#" class="scale"><img src="./img/img11.jpg" alt="..."
+                                    class="w300px h200px rounded-3 image"></a>
+                        </div>
+                        <div class="hstack d-flex align-items-center">
+                            <div class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-2 ">
+                                人道
+                            </div>
+                            <div
+                                class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-auto ">
+                                人權</div>
+                            <span class="mt-2 me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="查看更多標籤">
+                                    <i class="far fa-comment-dots text-see-more see-more"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <a href="#"
+                            class="article text-article text-decoration-none fw-bold fs-5">「我不覺得我是人」北韓監獄，人權煉獄：強暴、墮...
+                        </a>
+                        <div class="hstack">
+                            <div class="text-word fs-12px my-1 me-auto">2023-04-10</div>
+                            <span class="me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="收藏文章">
+                                    <i class="far fa-bookmark text-logo fs-12px bookmark"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="col-3">
+                        <div class="d-flex justify-content-start aligh-items-center overflow-hidden rounded-3">
+                            <a href="#" class="scale"><img src="./img/img12.jpg" alt="..."
+                                    class="w300px h200px rounded-3 image"></a>
+                        </div>
+                        <div class="hstack d-flex align-items-center">
+                            <div class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-2 ">
+                                netflix
+                            </div>
+                            <div
+                                class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-auto ">
+                                卡車
+                            </div>
+                            <span class="mt-2 me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="查看更多標籤">
+                                    <i class="far fa-comment-dots text-see-more see-more"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <a href="#"
+                            class="article text-article text-decoration-none fw-bold fs-5">「親愛的，我把房子縮小了」流水線生產微型房屋，引領...
+                        </a>
+                        <div class="hstack">
+                            <div class="text-word fs-12px my-1 me-auto">2023-04-10</div>
+                            <span class="me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="收藏文章">
+                                    <i class="far fa-bookmark text-logo fs-12px bookmark"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- 5 -->
+                    <div class="col-3">
+                        <div class="d-flex justify-content-start aligh-items-center overflow-hidden rounded-3">
+                            <a href="#" class="scale"><img src="./img/img13.jpg" alt="..."
+                                    class="w300px h200px rounded-3 image"></a>
+                        </div>
+                        <div class="hstack d-flex align-items-center">
+                            <div class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-2 ">
+                                2.5次元
+                            </div>
+                            <div
+                                class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-auto ">
+                                刀劍亂舞</div>
+                            <span class="mt-2 me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="查看更多標籤">
+                                    <i class="far fa-comment-dots text-see-more see-more"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <a href="#"
+                            class="article text-article text-decoration-none fw-bold fs-5">「突破次元壁！越前龍馬在舞台上打網球」在2.5次元...
+                        </a>
+                        <div class="hstack">
+                            <div class="text-word fs-12px my-1 me-auto">2023-04-07</div>
+                            <span class="me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="收藏文章">
+                                    <i class="far fa-bookmark text-logo fs-12px bookmark"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="col-3">
+                        <div class="d-flex justify-content-start aligh-items-center overflow-hidden rounded-3">
+                            <a href="#" class="scale"><img src="./img/img14.jpg" alt="..."
+                                    class="w300px h200px rounded-3 image"></a>
+                        </div>
+                        <div class="hstack d-flex align-items-center">
+                            <div class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-2 ">
+                                ai
+                            </div>
+                            <div
+                                class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-auto ">
+                                facebook
+                            </div>
+                            <span class="mt-2 me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="查看更多標籤">
+                                    <i class="far fa-comment-dots text-see-more see-more"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <a href="#" class="article text-article text-decoration-none fw-bold fs-5">
+                            「擁抱AI，遠離元宇宙」迪士尼、微軟與Meta紛紛裁員...
+                        </a>
+                        <div class="hstack">
+                            <div class="text-word fs-12px my-1 me-auto">2023-04-07</div>
+                            <span class="me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="收藏文章">
+                                    <i class="far fa-bookmark text-logo fs-12px bookmark"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="col-3">
+                        <div class="d-flex justify-content-start aligh-items-center overflow-hidden rounded-3">
+                            <a href="#" class="scale"><img src="./img/img15.jpg" alt="..."
+                                    class="w300px h200px rounded-3 image"></a>
+                        </div>
+                        <div class="hstack d-flex align-items-center">
+                            <div class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-2 ">
+                                女性
+                            </div>
+                            <div
+                                class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-auto ">
+                                未爆彈
+                            </div>
+                            <span class="mt-2 me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="查看更多標籤">
+                                    <i class="far fa-comment-dots text-see-more see-more"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <a href="#"
+                            class="article text-article text-decoration-none fw-bold fs-5">當炸彈在眼前倒數，性別重要嗎？利比亞首批女性排雷人員
+                        </a>
+                        <div class="hstack">
+
+                            <div class="text-word fs-12px my-1 me-auto">2023-04-06</div>
+                            <span class="me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="收藏文章">
+                                    <i class="far fa-bookmark text-logo fs-12px bookmark"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="col-3">
+                        <div class="d-flex justify-content-start aligh-items-center overflow-hidden rounded-3">
+                            <a href="#" class="scale"><img src="./img/img16.jpg" alt="..."
+                                    class="w300px h200px rounded-3 image"></a>
+                        </div>
+                        <div class="hstack d-flex align-items-center">
+                            <div class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-2 ">
+                                退休
+                            </div>
+                            <div
+                                class="hashtag bg-hashtag-gray rounded-2 px-2 py-1 text-word fs-12px mt-3 mb-1 me-auto ">
+                                退休金
+                            </div>
+                            <span class="mt-2 me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="查看更多標籤">
+                                    <i class="far fa-comment-dots text-see-more see-more"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <a href="#" class="article text-article text-decoration-none fw-bold fs-5">澳洲「超級」退休金，保你晚年沒煩惱
+                        </a>
+                        <div class="hstack">
+                            <div class="text-word fs-12px my-1 me-auto">2023-03-31</div>
+                            <span class="me-4">
+                                <button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="custom-tooltip" data-bs-title="收藏文章">
+                                    <i class="far fa-bookmark text-logo fs-12px bookmark"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-5">
+                    <div class="col">
+                        <a href="#"
+                            class="text-decoration-none d-flex bg-secondary-subtle text-dark rounded-3  justify-content-center align-items-center rounded-2 fs-5 p-2">
+                            查看全部最新文章
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>
